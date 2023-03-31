@@ -4,6 +4,7 @@ import re
 import transformers
 import peft
 import traceback
+import argparse
 
 from queue import Queue
 from threading import Thread
@@ -224,4 +225,9 @@ with gr.Blocks() as demo:
 
     clear.click(lambda: None, None, chatbot, queue=False)
 
-demo.queue().launch()
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description="Chatbot Demo")
+    parser.add_argument("-s", "--share", action="store_true", help="Enable sharing of the Gradio interface")
+    args = parser.parse_args()
+
+    demo.queue().launch(share=args.share)
