@@ -19,9 +19,12 @@ license: apache-2.0
 
 Scripts to finetune Cerebras GPT2.7B the Alpaca dataset, as well as inference demos. 
 
+ - It is the fastest model in the west!
  - The model with LoRA weights merged-in available at [HuggingFace/lxe/Cerebras-GPT-2.7B-Alpaca-SP](https://huggingface.co/lxe/Cerebras-GPT-2.7B-Alpaca-SP)
  - The LoRA weights also available at [HuggingFace/lxe/lora-cerebras-gpt2.7b-alpaca-shortprompt](https://huggingface.co/lxe/lora-cerebras-gpt2.7b-alpaca-shortprompt)
  - [ggml](https://github.com/ggerganov/ggml) version of the model available at [HuggingFace/lxe/ggml-cerebras-gpt2.7b-alpaca-shortprompt](https://huggingface.co/lxe/Cerebras-GPT-2.7B-Alpaca-SP-ggml). You can run this without a GPU and it's much faster than the original model
+
+<img src="https://user-images.githubusercontent.com/1486609/229048081-57629025-cf4e-4771-9872-f10ee90751b1.gif" width="400" />
 
 ### 📈 Warnings
 
