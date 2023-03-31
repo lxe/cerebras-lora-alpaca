@@ -173,8 +173,8 @@ def generate_text(
 
 with gr.Blocks() as demo:
     gr.Markdown("""
-    ## Cerebras GPT-2.7B Alpcaca-Shortprompt LoRA Demo
-    This is a very fast and relatively coherent chatbot. It uses the [Cerebras-GPT-2.7B](https://huggingface.co/cerebras/Cerebras-GPT-2.7B), with a LoRA finetuned on the [Alpcaca Dataset]) dataset using a shorter prompt. The chatbok keeps a very short conversation context as well. 
+    ## 🐺🦙 Cerebras GPT-2.7B Alpcaca-Shortprompt LoRA Chatbot
+    This is a very fast and relatively coherent (but hallucinating) chatbot. It uses the [Cerebras-GPT-2.7B](https://huggingface.co/cerebras/Cerebras-GPT-2.7B), with a LoRA finetuned on the [Alpcaca Dataset](https://github.com/tloen/alpaca-lora/blob/main/alpaca_data_cleaned.json) dataset using a shorter prompt. The chatbot keeps a very short conversation context of 4 entries. It's the fastest chatbot in the west!
     """)
     with gr.Row():
         with gr.Column():
@@ -188,11 +188,11 @@ with gr.Blocks() as demo:
             do_sample = gr.Checkbox(True, label="do_sample")
             with gr.Row():
                 with gr.Column():
-                    temperature = gr.Slider(0, 2, 0.5, step=0.01, label="temperature")
-                    top_p = gr.Slider(0, 1, 0.75, step=0.01, label="top_p")
-                    top_k = gr.Slider(0, 100, 80, step=1, label="top_k")
+                    temperature = gr.Slider(0, 2, 0.1, step=0.01, label="temperature")
+                    top_p = gr.Slider(0, 1, 0.8, step=0.01, label="top_p")
+                    top_k = gr.Slider(0, 100, 35, step=1, label="top_k")
                 with gr.Column():
-                    repetition_penalty = gr.Slider(0, 10, 1.5, step=0.01, label="repetition_penalty")
+                    repetition_penalty = gr.Slider(0, 10, 1.1, step=0.01, label="repetition_penalty")
                     typical_p = gr.Slider(0, 1, 1, step=0.01, label="typical_p")
                     num_beams = gr.Slider(0, 10, 1, step=1, label="num_beams")
 
