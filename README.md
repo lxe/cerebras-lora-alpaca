@@ -12,7 +12,7 @@ license: apache-2.0
 
 ### 🦙🐕🧠 Cerebras-GPT2.7B LoRA Alpaca ShortPrompt
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lxe/cerebras-lora-alpaca/inference.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lxe/cerebras-lora-alpaca/colab.ipynb)
 [![Open In Spaces](https://img.shields.io/badge/🤗-Open%20In%20Spaces-blue.svg)](https://huggingface.co/spaces/lxe/lxe-Cerebras-GPT-2.7B-Alpaca-SP)
 [![](https://img.shields.io/badge/no-bugs-brightgreen.svg)](https://github.com/lxe/no-bugs) 
 [![](https://img.shields.io/badge/coverage-%F0%9F%92%AF-green.svg)](https://github.com/lxe/onehundred/tree/master)
