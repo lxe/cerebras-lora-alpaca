@@ -1,0 +1,21 @@
+{
+  "base_model_name_or_path": "cerebras/Cerebras-GPT-2.7B",
+  "bias": "none",
+  "enable_lora": [
+    true,
+    false,
+    true
+  ],
+  "fan_in_fan_out": true,
+  "inference_mode": true,
+  "lora_alpha": 16,
+  "lora_dropout": 0.05,
+  "merge_weights": false,
+  "modules_to_save": null,
+  "peft_type": "LORA",
+  "r": 8,
+  "target_modules": [
+    "c_attn"
+  ],
+  "task_type": "CAUSAL_LM"
+}
