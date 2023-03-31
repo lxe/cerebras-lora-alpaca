@@ -17,7 +17,7 @@ license: apache-2.0
 [![](https://img.shields.io/badge/no-bugs-brightgreen.svg)](https://github.com/lxe/no-bugs) 
 [![](https://img.shields.io/badge/coverage-%F0%9F%92%AF-green.svg)](https://github.com/lxe/onehundred/tree/master)
 
-Scripts to finetune [Cerebras GPT2.7B](https://www.cerebras.net/blog/cerebras-gpt-a-family-of-open-compute-efficient-large-language-models/) the Alpaca dataset, as well as inference demos. 
+Scripts to finetune [Cerebras GPT2.7B](https://www.cerebras.net/blog/cerebras-gpt-a-family-of-open-compute-efficient-large-language-models/) on the [Alpaca dataset](https://github.com/gururise/AlpacaDataCleaned), as well as inference demos. 
 
  - It is the fastest model in the west!
  - The model with LoRA weights merged-in available at [HuggingFace/lxe/Cerebras-GPT-2.7B-Alpaca-SP](https://huggingface.co/lxe/Cerebras-GPT-2.7B-Alpaca-SP)
