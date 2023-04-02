@@ -176,9 +176,8 @@ with gr.Blocks() as demo:
     gr.Markdown("""
     ## 🐺🦙 Cerebras GPT-2.7B Alpcaca-Shortprompt LoRA Chatbot
     This is a very fast and relatively coherent (but hallucinating) chatbot. 
-    It uses the [Cerebras-GPT-2.7B](https://huggingface.co/cerebras/Cerebras-GPT-2.7B), 
-    with a LoRA finetuned on the [Alpcaca Dataset](https://github.com/tloen/alpaca-lora/blob/main/alpaca_data_cleaned.json) dataset 
-    using a shorter prompt. The chatbot keeps a very short conversation context of 4 entries. It's the fastest chatbot in the west! 
+    It uses the [Cerebras-GPT-2.7B](https://huggingface.co/cerebras/Cerebras-GPT-2.7B), with a LoRA finetuned on the [Alpcaca Dataset](https://github.com/tloen/alpaca-lora/blob/main/alpaca_data_cleaned.json) dataset using a shorter prompt. 
+    The chatbot keeps a very short conversation context of 4 entries. It's the fastest chatbot in the west! 
     More info [here](https://github.com/lxe/cerebras-lora-alpaca)
     """)
     with gr.Row():
