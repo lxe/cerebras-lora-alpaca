@@ -37,8 +37,8 @@ The model tends to be pretty coherent, but it also hallucinates a lot of factual
 1. Get the environment ready
 
 ```bash
-conda create -n cerberas-lora python=3.10
-conda activate cerberas-lora
+conda create -n cerebras-lora python=3.10
+conda activate cerebras-lora
 conda install -y cuda -c nvidia/label/cuda-11.7.0
 conda install -y pytorch=1.13.1 pytorch-cuda=11.7 -c pytorch
 ```
